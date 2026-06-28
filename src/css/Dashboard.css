@@ -1,0 +1,43 @@
+body{
+  background:#f1f5f9;
+}
+
+.dashboard-container{
+  width:90%;
+  margin:auto;
+  margin-top:50px;
+  text-align:center;
+}
+
+.dashboard-container h1{
+  margin-bottom:40px;
+}
+
+.card-container{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
+.bank-card{
+  background:white;
+  width:300px;
+  padding:30px;
+  border-radius:15px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.bank-card:hover{
+  transform:translateY(-5px);
+}
+
+.bank-card h3{
+  color:#475569;
+}
+
+.bank-card h2{
+  color:#2563eb;
+  margin-top:15px;
+}
