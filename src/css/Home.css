@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+/* Main background */
+
+.home-container{
+  min-height:100vh;
+  background: linear-gradient(135deg,#0f172a,#1d4ed8);
+  color:white;
+  padding:30px 80px;
+}
+
+/* Navbar */
+
+.home-navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.brand{
+  font-size:30px;
+  font-weight:bold;
+}
+
+.nav-buttons{
+  display:flex;
+  gap:15px;
+}
+
+.nav-buttons a{
+  text-decoration:none;
+  padding:10px 22px;
+  border-radius:8px;
+  font-weight:600;
+}
+
+.login-btn{
+  background:transparent;
+  border:1px solid white;
+  color:white;
+}
+
+.register-btn{
+  background:#facc15;
+  color:black;
+}
+
+/* Hero */
+
+.hero-section{
+  margin-top:80px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+/* Left */
+
+.hero-left{
+  width:55%;
+}
+
+.hero-left h1{
+  font-size:60px;
+  line-height:1.2;
+}
+
+.hero-left span{
+  color:#facc15;
+}
+
+.hero-left p{
+  margin-top:20px;
+  font-size:20px;
+  color:#d1d5db;
+  line-height:1.6;
+}
+
+/* Buttons */
+
+.hero-buttons{
+  margin-top:30px;
+  display:flex;
+  gap:20px;
+}
+
+.primary-btn,
+.secondary-btn{
+  text-decoration:none;
+  padding:14px 28px;
+  border-radius:10px;
+  font-weight:bold;
+}
+
+.primary-btn{
+  background:#facc15;
+  color:black;
+}
+
+.secondary-btn{
+  border:1px solid white;
+  color:white;
+}
+
+/* Right Card */
+
+.hero-right{
+  width:35%;
+  display:flex;
+  justify-content:center;
+}
+
+.bank-card{
+  background:rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  padding:40px;
+  border-radius:20px;
+  text-align:center;
+  width:320px;
+}
+
+.bank-icon{
+  font-size:60px;
+  margin-bottom:20px;
+}
+
+/* Features */
+
+.features-section{
+  margin-top:100px;
+  display:flex;
+  gap:25px;
+  justify-content:center;
+}
+
+.feature-card{
+  background:rgba(255,255,255,0.10);
+  padding:30px;
+  border-radius:16px;
+  width:300px;
+  text-align:center;
+}
+
+.feature-card svg{
+  font-size:35px;
+  margin-bottom:15px;
+}
+
+.feature-card h3{
+  margin-bottom:15px;
+}
